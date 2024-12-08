@@ -62,7 +62,7 @@ function page() {
         <div className="grid grid-cols-3 gap-2">
           {/* Product 1 */}
           <div className="border border-white rounded-md p-4">
-            <img 
+            <Image 
               src="/Image (1).png" 
               alt="Nike Air Max Pulse"
               width={300}
@@ -71,14 +71,14 @@ function page() {
             />
             <div className="mt-4">
               <h3 className="font-medium text-lg pl-11">Nike Air Max Pulse</h3>
-              <p className="text-gray-500 text-sm pl-11">Women's Shoes</p>
+              <p className="text-gray-500 text-sm pl-11">Women&apos;s Shoes</p>
               <p className="font-bold mt-1 pl-11">₹ 13,995</p>
             </div>
           </div>
 
           {/* Product 2 */}
           <div className="border border-white rounded-md p-4">
-            <img
+            <Image
               src="/Image (2).png" 
               alt="Nike Air Max Pulse"
               width={300}
@@ -87,14 +87,14 @@ function page() {
             />
             <div className="mt-4">
               <h3 className="font-medium text-lg pl-11">Nike Air Max Pulse</h3>
-              <p className="text-gray-500 text-sm pl-11">Men's Shoes</p>
+              <p className="text-gray-500 text-sm pl-11">Men&apos;s Shoes</p>
               <p className="font-bold mt-1 pl-11">₹ 13,995</p>
             </div>
           </div>
 
           {/* Product 3 */}
           <div className="border border-white rounded-md p-4">
-            <img
+            <Image
               src="/Image (3).png" 
               alt="Nike Air Max 97 SE"
               width={300}
@@ -103,7 +103,7 @@ function page() {
             />
             <div className="mt-4">
               <h3 className="font-medium text-lg pl-11">Nike Air Max 97 SE</h3>
-              <p className="text-gray-500 text-sm pl-11">Men's Shoes</p>
+              <p className="text-gray-500 text-sm pl-11">Men&apos;s Shoes</p>
               <p className="font-bold mt-1 pl-11">₹ 16,995</p>
             </div>
           </div>
@@ -113,7 +113,7 @@ function page() {
       {/* New Section (from Uploaded Image) */}
       <div className="relative bg-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <img
+          <Image
             src="/Image (4).png" 
             alt="Running Man"
             width={1200}
@@ -168,7 +168,7 @@ function page() {
 
 <div className="text-center flex flex-col items-center">
   <Link href="/productcart">
-      <img
+      <Image
         src="/Image (5).png"
         alt="Men's Top"
         width={300}
@@ -180,17 +180,17 @@ function page() {
 </div>
 
             <div className="text-center flex flex-col items-center">
-              <img src="Image (6).png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
+              <Image src="Image (6).png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
               <p className="text-gray-700 font-medium mt-4">Nike Dri-FIT Challenger</p>
               <p className="text-gray-500 text-sm">₹ 2,495</p>
             </div>
             <div className="text-center flex flex-col items-center ">
-              <img src="/Image (7).png" alt="Women's Top" width={300} height={300} className="rounded-lg" />
+              <Image src="/Image (7).png" alt="Women's Top" width={300} height={300} className="rounded-lg" />
               <p className="text-gray-700 font-medium mt-4">Nike Dri-FIT ADV Run Division</p>
               <p className="text-gray-500 text-sm">₹ 5,295</p>
             </div>
             <div className="text-center flex flex-col items-center">
-              <img src="/Image (8).png" alt="Women's Leggings" width={300} height={300} className="rounded-lg" />
+              <Image src="/Image (8).png" alt="Women's Leggings" width={300} height={300} className="rounded-lg" />
               <p className="text-gray-700 font-medium mt-4">Nike Fast</p>
               <p className="text-gray-500 text-sm">₹ 3,795</p>
             </div>
@@ -199,7 +199,7 @@ function page() {
 
         <div className="bg-white py-16 px-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-left font-sans">Don't Miss it</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-left font-sans">Don&apos;t Miss it</h2>
 
           <div className="w-screen bg-gray-100">
       {/* Fullscreen Sneaker Image */}
@@ -235,15 +235,15 @@ function page() {
       
       <div className="grid grid-cols-4 gap-12">
             <div className="text-center flex flex-col items-center">
-              <img src="Image (11).png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
+              <Image src="Image (11).png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
               
             </div>
             <div className="text-center flex flex-col items-center ">
-              <img src="/Image (12).png" alt="Women's Top" width={300} height={300} className="rounded-lg" />
+              <Image src="/Image (12).png" alt="Women's Top" width={300} height={300} className="rounded-lg" />
               
             </div>
             <div className="text-center flex flex-col items-center">
-              <img src="/Image (13).png" alt="Women's Leggings" width={300} height={300} className="rounded-lg" />
+              <Image src="/Image (13).png" alt="Women's Leggings" width={300} height={300} className="rounded-lg" />
               
             </div>
           </div>
@@ -285,12 +285,12 @@ function page() {
     </div>
     {/* Column 4 */}
     <div className="text-center">
-      <h3 className="font-bold mb-4">Kids'</h3>
+      <h3 className="font-bold mb-4">Kids&apos;</h3>
       <ul className="space-y-2 text-sm">
         <li>Infant & Toddler Shoes</li>
-        <li>Kids' Shoes</li>
-        <li>Kids' Jordan Shoes</li>
-        <li>Kids' Basketball Shoes</li>
+        <li>Kids&apos; Shoes</li>
+        <li>Kids&apos; Jordan Shoes</li>
+        <li>Kids&apos; Basketball Shoes</li>
       </ul>
     </div>
   </div>
