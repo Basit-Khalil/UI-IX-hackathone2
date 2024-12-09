@@ -7,8 +7,8 @@ export default function page() {
       {/* Left Section - Image */}
       <div className="relative flex items-center justify-center w-full lg:w-1/2">
         <Image
-          src='/Rectangle.png'
-          alt="Nike Air Force 1"
+          src='/Frame.png'
+          alt="Nike Dri-FIT ADV TechKnit Ultra"
           className="w-full h-auto object-cover"
           width={400}
           height={400}
@@ -21,12 +21,10 @@ export default function page() {
           Nike Air Force 1 PLT.AF.ORM
         </h2>
         <p className={`text-sm font-light text-deepBlack mb-6 leading-7`}>
-          Turn style on its head with this crafted take on the Air Jordan 1 Mid.
-          Its &quot;inside out&quot;-inspired construction, including unique layering and exposed foam accents, ups the ante on this timeless Jordan Brand silhouette.
-          Details like the deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich mixture of materials and aged midsole aesthetic give this release an artisan finish.
+        Men's Short-Sleeve Running Top
         </p>
         <p className={`text-4xl font-medium text-deepBlack mb-6 `}>
-          ₹ 8 695.00
+          ₹ 3 895.00
         </p>
         <button className="flex items-center justify-center bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 transition duration-300">
           <CiShoppingCart className="w-6 h-6 mr-2" />

@@ -8,7 +8,7 @@ const page = () => {
         <div className="max-w-screen-2xl mx-auto" >
             <div className='flex justify-center mb-4'>
                 <Image
-                    className=''
+                    className='/Frame (2).png'
                     src={'/join.png'}
                     alt='shoes banner'
                     width={450}

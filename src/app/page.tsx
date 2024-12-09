@@ -167,7 +167,7 @@ function page() {
             {/* Men's Section */}
 
 <div className="text-center flex flex-col items-center">
-  <Link href="/productcart">
+  <Link href="/productdetail">
       <Image
         src="/Image (5).png"
         alt="Men's Top"
@@ -180,7 +180,7 @@ function page() {
 </div>
 
             <div className="text-center flex flex-col items-center">
-              <Image src="Image (6).png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
+              <Image src="/image-6.png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
               <p className="text-gray-700 font-medium mt-4">Nike Dri-FIT Challenger</p>
               <p className="text-gray-500 text-sm">₹ 2,495</p>
             </div>
@@ -235,7 +235,7 @@ function page() {
       
       <div className="grid grid-cols-4 gap-12">
             <div className="text-center flex flex-col items-center">
-              <Image src="Image (11).png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
+              <Image src="/Image (11).png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
               
             </div>
             <div className="text-center flex flex-col items-center ">
@@ -257,7 +257,7 @@ function page() {
     <div className="text-center">
       <h3 className="font-bold mb-4">Icons</h3>
       <ul className="space-y-2 text-sm">
-        <li>Air Force 1</li>
+      <li><Link href="productcart">Air Force 1</Link></li>
         <li>Huarache</li>
         <li>Air Max 90</li>
         <li>Air Max 95</li>
