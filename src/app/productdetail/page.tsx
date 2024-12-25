@@ -21,7 +21,7 @@ export default function page() {
           Nike Air Force 1 PLT.AF.ORM
         </h2>
         <p className={`text-sm font-light text-deepBlack mb-6 leading-7`}>
-        Men's Short-Sleeve Running Top
+        Men&apos;s Short-Sleeve Running Top
         </p>
         <p className={`text-4xl font-medium text-deepBlack mb-6 `}>
           ₹ 3 895.00
