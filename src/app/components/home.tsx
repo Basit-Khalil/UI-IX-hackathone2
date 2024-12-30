@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';  
 import Link from 'next/link';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function page() {
   return (
@@ -134,7 +136,8 @@ function page() {
       </div>
 
       {/* Gear Up Section */}
-      <div className="bg-white py-16 px-8">
+      
+      <div className="bg-white py-16 px-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-12 text-left">Gear Up</h2>
           

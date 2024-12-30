@@ -7,14 +7,16 @@ function page() {
     <div>
       {/* Fullscreen Sneaker Image */}
       <div className="relative w-full h-screen">
-        <Image
-          src="/Image.png"
-          alt="Sneaker"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-        />
-      </div>
+  <Image
+    src="/Image.png"
+    alt="Sneaker showcase"
+    layout="fill"
+    objectFit="cover"
+    objectPosition="center"
+    priority // helps to prioritize this image for initial load
+  />
+</div>
+
 
       {/* Content Section */}
       <div className="relative flex flex-col items-center text-center bg-white py-12">
@@ -59,7 +61,7 @@ function page() {
         </div>
 
         {/* Product Carousel */}
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12">
           {/* Product 1 */}
           <div className="border border-white rounded-md p-4">
             <Image 

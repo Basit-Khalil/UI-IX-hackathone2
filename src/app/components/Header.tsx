@@ -7,13 +7,14 @@ function Header() {
     <main className="bg-white flex flex-col items-center w-full">
       <header className="bg-white w-full h-24 relative">
         <div className="bg-neutral-100 h-9 flex items-center justify-between px-12">
-          <Image 
-            src="/logo.png" 
-            alt="Logo" 
-            width={24} // specify width
-            height={24} // specify height
-            className="w-[24px] h-[24px]" 
-          />
+        <Image 
+  src="/logo.png" 
+  alt="Brand Logo"  // Make alt more descriptive
+  width={24}
+  height={24}
+  className="w-[24px] h-[24px]" 
+/>
+
           <div className="flex items-center space-x-4 text-xs font-medium text-[#111111]">
             <Link href="/store"> <span className="header-border text-black " >Find a Store </span> </Link>
             <span>|</span>
