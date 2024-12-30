@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { CiShoppingCart } from "react-icons/ci";
+
 export default function page() {
   return (
     <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between p-6 rounded-lg bg-white w-[90%] max-w-[1200px] mx-auto mt-4 py-8 lg:gap-20">
